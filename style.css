@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    padding: 0.7rem 0;
+    height: 60px;
+    width: 1520px;
+    border-bottom: 1px solid #44D62C;
+    position: fixed;
+    z-index: 1;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: auto; */
+    margin: 0 10.6rem ;
+    /* background-color: aqua; */
+    font-family: Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    font-size: 0.9rem;
+    font-weight: 400;
+    list-style: none;
+    color: #BBBBBB;
+}
+
+header li :hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+header ul a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header ul li p{
+    margin-left: -2.3rem;    
+}
+
+main{
+    background-color: black;
+    height: 4000px;
+}
+
+main .div1{
+    color: #eee;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    min-height: 44px;
+    background-color: #555;
+    text-align: center;
+    width: 100%;
+    padding: 13.5px 20px 7.5px 0px;
+    position: relative;
+    top: 60px;
+}
+
+main .div1 a, main section a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+main section{
+    text-decoration: none;
+    margin-top: 3rem;
+}
+
+main section img{
+    border-bottom: 10px solid #222;
+    height: 100%;
+    width: 100%;
+}
+
+main section span{
+    position: relative;
+    /* z-index: 2; */
+    max-width: 1200px;
+    
+    font-family: RazerF5, Arial, Helvetica, sans-serif !important;
+    /* font-size: 1rem; */
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+}
+
+main section .div1 span h2{
+    /* margin: 0 auto; */
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    /* font-size: 2.25rem; */
+    font-weight: 300;
+    letter-spacing: .0625rem;
+    line-height: 2.25rem;
+    /* max-width: unset; */
+    position: relative;
+    z-index: 1;
+    line-height: 1.5;
+    columns: #fff;
+    /* margin-top: 3rem; */
+}
+
+main section span .div1{
+    display: flex;
+    background-color: inherit;
+    justify-content: center;
+    gap: 2.2rem;
+    margin-top: -3.2rem;
+}
+
+main section span .div1 p:hover, main section span p:hover{
+    text-decoration-line: underline #fff;
+}
+
+main section span .p2{
+    background-color: #ff9c07;
+    position: relative;
+    display: flex;
+    margin-left: 43rem;
+    margin-right: 43rem;
+    /* width: 100px; */
+    align-items: center;
+    /* justify-content: center; */
+    bottom: 30px;
+    line-height: 1em;
+    color: #000 !important;
+    font-size: .875rem;
+    font-weight: 700;
+    padding: .3em 1em;
+    /* text-align: center; */
+    
+}
+
+main section span p{
+    font-size: 1.3125rem;
+}
+
+main section span p i{
+    color: #44D62C;
+    font-size: 12px;
+}
+
+main section span h3{
+    font-size: 1.5rem;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+
+#sec1{
+    padding-top: 3rem;
+}
+
+.outer{
+    display: flex;
+    height: 15%;
+    width: 100%;
+    margin-top: -12px;   
+}
+
+.outer h3{
+    font-size: 1.313rem;
+    font-weight: 300;
+    color: #fff;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+}
+
+.symbol{
+    color: #fff;
+    font-size: 1.0625rem;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    z-index: 12;
+    text-decoration: none;
+    display: flex;
+    gap: 2rem;
+    margin-top: 0.5rem;
+    justify-content: center;
+}
+
+.symbol p i{
+    color: #44D62C;
+    font-size: 12px;
+}
+
+.hover1{
+    background-image: url(./images/razer-blade-1.webp);
+    background-position: -6rem;
+    height: 98%;
+    width: 760px;
+    border-right: 10px solid #222;
+    border-bottom: 10px solid #222;
+    padding-top: 2rem;
+}
+
+.hover2{
+    background-image: url(./images/razer-blade-2.webp);
+    background-position: -6rem;
+    height: 98%;
+    width: 759px;
+    border-bottom: 10px solid #222;
+    padding-top: 2rem;
+}
+
+.hover3{
+    background-image: url(./images/razer-laptop-3.webp);
+    background-position: -6rem;
+    height: 98%;
+    width: 760px;
+    border-right: 10px solid #222;
+    border-bottom: 10px solid #222;
+    padding-top: 2rem;
+}
+
+.hover4{
+    background-image: url(./images/razer-blade-3.webp);
+    background-position: -6rem;
+    height: 98%;
+    width: 759px;
+    border-bottom: 10px solid #222;
+    padding-top: 2rem;
+}
+
+.hover5{
+    background-image: url(./images/razer-3.webp);
+    background-position: -6rem;
+    height: 98%;
+    width: 760px;
+    /* color: #fff; */
+    border-right: 10px solid #222;
+    border-bottom: 10px solid #222;
+    padding-top: 2rem;
+}
+
+.hover6{
+    background-image: url(./images/xbox-performance-6.webp);
+    background-position: -6rem;
+    height: 98%;
+    width: 759px;
+    border-bottom: 10px solid #222;
+    padding-top: 2rem;
+}
+
+.one span, .two span, .three span, .four span, .five span, .six span{
+    position: relative;
+    font-family: Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    font-weight: 400;
+    line-height: 1.5;
+    /* text-decoration: none; */
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.one a, .two a, .three a, .four a, .five a, .six a{
+    color: white;
+    text-decoration: none;
+}
+
+.symbol p a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    height: 49rem;
+    background-color: black;
+    padding-top: 6rem;
+}
+
+.footerin{
+    background-color: #111;
+    padding-top: 1rem;
+    padding: 1rem 11.5rem 0 10rem ;
+}
+
+.footer-top{
+    display: flex;
+    gap: 4rem;
+}
+
+.col3{
+    padding: 0 0 0 3rem;
+}
+
+.col5{
+    padding: 0 0 0 2.7rem;
+}
+
+.left-footer{
+    font-family: Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    font-size: 0.9rem;
+    font-weight: 100;
+    line-height: 2.5;
+    color: #fff;
+}
+
+.left-footer ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 0.75rem;
+}
+
+.left-footer ul a{
+    color: #999;
+    text-decoration: none;
+}
+
+.left-footer ul a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.icons li{
+    color: #999;
+    padding-bottom: 0.3rem;
+}
+
+.icons .l1 i{
+    border: 1px solid #999;
+    border-radius: 50%;
+    padding: .45rem .58rem;
+}
+
+.icons .l2 i{
+    border: 1px solid #999;
+    border-radius: 50%;
+    padding: .45rem .5rem;
+}
+
+.icons .l3 i{
+    border: 1px solid #999;
+    border-radius: 50%;
+    padding: .45rem .5rem;
+}
+
+.icons .l4 i{
+    border: 1px solid #999;
+    border-radius: 50%;
+    padding: .45rem .45rem;
+}
+
+.icons .l5 i{
+    border: 1px solid #999;
+    border-radius: 50%;
+    padding: .45rem .4rem;
+}
+
+.icons .l6 i{
+    border: 1px solid #999;
+    border-radius: 50%;
+    padding: .45rem .5rem;
+}
+
+.icons .l7 i{
+    border: 1px solid #999;
+    border-radius: 50%;
+    padding: .45rem .45rem;
+}
+
+.icons .l8 i{
+    border: 1px solid #999;
+    border-radius: 50%;
+    padding: .45rem .36rem;
+}
+
+.right-footer{
+    font-family: RazerF5, Arial !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.5;
+    margin-right: -2rem;
+    color: #44D62C;
+    padding-left: 8rem;
+    /* background-color: #ff9c07; */
+}
+
+sup{
+    font-size: 8px;
+}
+
+.hrline{
+   height: 0.1px; 
+   margin: 1.2rem 0;
+   background-color: #555;
+}
+
+.footer-last{
+    display: flex;
+    justify-content: space-between;
+    color: #999;
+    font-size: 0.8rem;
+}
+
+.left-bottom{
+    display: flex;
+    gap: 2.2rem;
+    font-size: 0.75rem;
+    font-family: Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+}
+
+.links{
+    display: flex;
+    gap: 1rem;
+    font-size: 0.75rem;
+    height: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.link2{
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    height: 0.75rem;
+    margin-bottom: 2rem;
+    font-family: Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+}
+
+.links a, .link2 a{
+    border-right: 1px solid #999;
+    padding-right: 1.2rem;
+    text-decoration: none;
+    color: #999;
+}
+
+.p1{
+    border-right: 1px solid #999;
+    color: #fff;
+    padding-right: 0.5rem;
+
+}
+
+.links a:last-child, .link2 a{
+    border: none;
+}
+
+.links a:hover, .link2 a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
